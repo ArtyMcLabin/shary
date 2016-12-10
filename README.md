@@ -32,4 +32,6 @@ Usage: <br>
 
 Notes: <br>
 ------------------
-this software is redistributed under BSD 3-Clause License.
+* This software is redistributed under BSD 3-Clause License.
+* Compilation requires GCC (with c++1z support) and Boost library.
+* Shary is by now dependent on netcat (nc) for networking. (should be present in most Linux distros by default, else easilly accessed)
