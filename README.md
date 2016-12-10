@@ -5,7 +5,7 @@ directly share files between your computers.
 ----------
 
 
-installation: <br>
+Installation: <br>
 ------------------
 
 >**1)** download "/src" folder contents from this git repository <br>
@@ -15,7 +15,7 @@ installation: <br>
 >**3)** have fun.  <br>
 
 
-usage: <br>
+Usage: <br>
 ------------------
 
 >###edit contacts: <br>
@@ -29,3 +29,7 @@ usage: <br>
 >###helper commands: </br>
 >*      <b>(desktop):</b>      shary list <br>
 >       ><i>outputs list of all contacts and their IP's </i><br>
+
+Notes: <br>
+------------------
+this software is redistributed under BSD 3-Clause License.
