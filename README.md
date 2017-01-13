@@ -14,6 +14,13 @@ Installation: <br>
 >
 >**3)** have fun.  <br>
 
+example:
+
+    sudo apt-get install git libboost-all-dev
+    git clone https://github.com/ArtyMcLabin/shary.git
+    cd shary/src
+    sudo make
+    shary
 
 Usage: <br>
 ------------------
