@@ -17,6 +17,7 @@ Installation: <br>
 example:
 
     sudo apt-get install git libboost-all-dev
+    cd ~/Downloads
     git clone https://github.com/ArtyMcLabin/shary.git
     cd shary/src
     sudo make
