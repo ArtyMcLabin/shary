@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
     switch(command)
     {
         case Command::get:
-            #ifdef _WIN32
+            #ifdef __CYGWIN32__
                 string testtest = ("nc -l "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip");
                 cout << testtest << endl;
                 system(testtest.c_str());
