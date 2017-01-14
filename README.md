@@ -14,13 +14,22 @@ Installation: <br>
 >
 >**3)** have fun.  <br>
 
-example:
+####examples:
 
+#####Linux(Ubuntu):
     sudo apt-get install git libboost-all-dev
     cd ~/Downloads
     git clone https://github.com/ArtyMcLabin/shary.git
     cd shary/src
     sudo make
+    shary
+    
+#####Windows(Cygwin):
+    apt-cyg install make git libboost-devel
+    cd ~/Downloads
+    git clone https://github.com/ArtyMcLabin/shary.git
+    cd shary/src
+    make
     shary
 
 Usage: <br>
