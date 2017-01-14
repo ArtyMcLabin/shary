@@ -25,7 +25,8 @@ Installation: <br>
     shary
     
 #####Windows(Cygwin):
-    apt-cyg install make git libboost-devel
+    apt-cyg install make git libboost-devel gcc-g++
+    mkdir ~/Downloads
     cd ~/Downloads
     git clone https://github.com/ArtyMcLabin/shary.git
     cd shary/src
