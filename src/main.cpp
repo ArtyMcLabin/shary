@@ -70,7 +70,11 @@ int main(int argc, char* argv[])
     switch(command)
     {
         case Command::get:
-            system(("nc -l -p "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip").c_str());
+            #ifdef __CYGWIN__
+                system(("nc -l "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip").c_str());
+            #else
+                system(("nc -l -p "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip").c_str());
+            #endif
             break;
         case Command::give:
             {
