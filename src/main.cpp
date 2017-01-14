@@ -71,7 +71,9 @@ int main(int argc, char* argv[])
     {
         case Command::get:
             #ifdef _WIN32
-                system(("nc -l "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip").c_str());
+                string testtest = ("nc -l "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip");
+                cout << testtest << endl;
+                system(testtest.c_str());
             #else
                 system(("nc -l -p "+port+" > data.shary.zip && unzip data.shary.zip && rm data.shary.zip").c_str());
             #endif
